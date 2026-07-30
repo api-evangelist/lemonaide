@@ -1,0 +1,8 @@
+---
+title: "ชมรมผู้ประกอบการรถยนต์ใช้แล้วเพื่อนๆมีนบุรี ร่วมการเปิดตัวระบบบริหารจัดการโชว์รูมสำหรับผู้ประกอบการ “Dealer Management System V.2"
+url: "https://lemonaide.co.th/news4/"
+date: "2023-08-29"
+author: "admin"
+feed_url: "https://lemonaide.co.th/feed/"
+---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

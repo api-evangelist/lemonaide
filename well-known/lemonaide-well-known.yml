@@ -1,0 +1,40 @@
+generated: '2026-07-19'
+method: probed
+host: https://lemonaide.co.th
+notes: >-
+  The host is a WordPress site that answers every unknown path with HTTP 200 and the
+  full homepage document (391566 bytes), i.e. a soft-404. Every /.well-known/ probe
+  below returned that identical homepage payload rather than the requested document,
+  so none of these documents actually exist. Status is recorded as the raw HTTP code
+  with resolved: soft-404 so a re-run does not mistake the 200s for real hits. No raw
+  files were saved and no WellKnown pointer is wired into apis.yml.
+soft_404:
+  detected: true
+  control_path: /nonexistent-xyz-123/
+  signature_bytes: 391566
+  content_type: text/html; charset=UTF-8
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  resolved: soft-404
+  present: false
+- path: /.well-known/openid-configuration
+  status: 200
+  resolved: soft-404
+  present: false
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  resolved: soft-404
+  present: false
+- path: /.well-known/api-catalog
+  status: 200
+  resolved: soft-404
+  present: false
+- path: /.well-known/ai-plugin.json
+  status: 200
+  resolved: soft-404
+  present: false
+- path: /llms.txt
+  status: 200
+  resolved: soft-404
+  present: false

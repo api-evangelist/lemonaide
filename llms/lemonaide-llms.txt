@@ -1,0 +1,40 @@
+# Lemonaide
+
+> Lemonaide is a Bangkok-headquartered B2B used-car and insurtech platform operating across Southeast Asia. It sells software and operated services to used-car dealerships and insurers, with the stated mission of reducing asymmetric information in the automotive market. Lemonaide is backed by 500 Global. As of 2026-07-19 Lemonaide publishes no public API, developer portal, or machine-readable specification.
+
+## About
+
+- [Website](https://lemonaide.co.th/): Company home; product overview and dealer sign-up.
+- [Our Services](https://lemonaide.co.th/services-main/): Full catalog of SaaS products and operated services.
+- [News](https://lemonaide.co.th/news/): Company news and announcements.
+- [Reviews](https://lemonaide.co.th/reviews/): Customer reviews.
+- [Contact / Sign Up](https://lemonaide.co.th/join-us/): Demo request and dealer onboarding.
+- [Careers (LinkedIn)](https://www.linkedin.com/company/lemonaidegroup): Hiring and company updates.
+
+## Products
+
+- [Dealer Management System](https://lemonaide.co.th/lemonaide-saas/): Dealership operations in a single app — stock, leads, sales, vehicle tax, sourcing, SLA, financing, partners, documentation, and service management.
+- [Dealer CRM System](https://lemonaide.co.th/lemonaide-dealer-crm-system/): Customer management with microtargeting.
+- [Digital Escrow](https://lemonaide.co.th/lemonaide-digital-ledger/): Secure payment and settlement between transacting parties.
+- [After-Sales BPO Service](https://lemonaide.co.th/aftersales-bpo-services/): Outsourced after-sales customer support.
+- [Warranty TPA Service](https://lemonaide.co.th/warranty-tpa-services/): Third-party warranty claims administration for insurers.
+- [Digital Roadside Service](https://lemonaide.co.th/digital-roadside-services/): 24-hour roadside assistance dispatch.
+- [Vehicle Inspection Services](https://lemonaide.co.th/vehicles-authentication/): Vehicle condition inspection and authentication.
+- [Audit Assessment Services](https://lemonaide.co.th/partners-authentication-services/): Audit and assessment of partner repair workshops.
+
+## Legal
+
+- [Terms & Conditions](https://lemonaide.co.th/terms-conditions/)
+- [Privacy Policy](https://lemonaide.co.th/privacy-policy/)
+
+## API Evangelist artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/lemonaide/refs/heads/main/apis.yml): Machine-readable profile for this company.
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/lemonaide/refs/heads/main/conformance/lemonaide-conformance.yml): Standards posture; ISO 27001 is vendor-asserted and unverified.
+- [Well-Known probe](https://raw.githubusercontent.com/api-evangelist/lemonaide/refs/heads/main/well-known/lemonaide-well-known.yml): /.well-known/ discovery probe; host returns soft-404 for all paths.
+
+## Notes
+
+- No public API, OpenAPI/AsyncAPI specification, SDK, CLI, MCP server, sandbox, changelog, status page, or developer documentation was found on any Lemonaide surface.
+- lemonaidegroup.com redirects to lemonaide.co.th; lemonaide.ai is an unrelated company.
+- Lemonaide displays an "ISO27001 Security Standard" credential but publishes no certificate, registrar, scope, or trust center.

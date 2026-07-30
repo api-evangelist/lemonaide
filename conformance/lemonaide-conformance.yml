@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: https://lemonaide.co.th/
+notes: >-
+  Lemonaide publishes no public API, so no API-level standards conformance can be
+  derived from a specification. The only standards claim the company makes publicly
+  is an ISO 27001 credential displayed as a marketing badge on the homepage and on
+  the Dealer Management System product page. No certificate number, issuing body,
+  audit date, scope statement, trust center, or compliance page was found, so the
+  claim is recorded as vendor-asserted and unverified.
+standards:
+- id: iso-27001
+  conforms: true
+  verified: false
+  claim_type: vendor-asserted
+  evidence: '"ISO27001 Security Standard" credential displayed on https://lemonaide.co.th/
+    and https://lemonaide.co.th/lemonaide-saas/; no certificate, registrar, or scope
+    published'
+- id: oauth2
+  conforms: false
+  evidence: no public API or securityScheme surface published
+- id: oidc
+  conforms: false
+  evidence: no /.well-known/openid-configuration (soft-404)
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API specification published
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: no /.well-known/security.txt (soft-404)
