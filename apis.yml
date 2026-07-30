@@ -1,19 +1,47 @@
 aid: lemonaide
 name: Lemonaide
-description: Lemonaide is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Lemonaide is a Bangkok-headquartered B2B used-car and insurtech platform operating across
+  Southeast Asia, positioning itself as a technology and services layer that reduces asymmetric information
+  in the automotive market. The company sells software to used-car dealerships and insurers, including
+  a Dealer Management System, a Dealer CRM with microtargeting, and a Digital Escrow settlement product,
+  alongside operated services such as after-sales BPO, warranty third-party administration, 24-hour
+  digital roadside assistance, vehicle inspection, and repair-workshop audit assessment. Lemonaide states
+  that more than 2,000 dealers use its platform and names Carro, Carsome, and Toyota Sure among its
+  partners. It is backed by 500 Global. As of this enrichment pass Lemonaide publishes no public developer
+  portal, API documentation, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/lemonaide/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://lemonaide.co.th/wp-content/uploads/2024/04/lemonaide-logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Automotive
+- Used Cars
+- Insurance
+- Insurtech
+- Dealer Management
+- SaaS
+- Southeast Asia
+- Thailand
+- Escrow
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lemonaide-domain-security.yml
 - type: Website
-  url: https://lemonaidegroup.com
+  url: https://lemonaide.co.th/
+- type: Blog
+  url: https://lemonaide.co.th/news/
+- type: Support
+  url: https://lemonaide.co.th/join-us/
+- type: SignUp
+  url: https://lemonaide.co.th/join-us/
+- type: TermsOfService
+  url: https://lemonaide.co.th/terms-conditions/
+- type: PrivacyPolicy
+  url: https://lemonaide.co.th/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lemonaidegroup
+- type: Facebook
+  url: https://www.facebook.com/Lemonaidethailand/
+- type: Instagram
+  url: https://www.instagram.com/lemonaide_official/
+- type: Conformance
+  url: conformance/lemonaide-conformance.yml
+- type: LLMsTxt
+  url: llms/lemonaide-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
