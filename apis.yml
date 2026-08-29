@@ -10,6 +10,17 @@ description: Lemonaide is a Bangkok-headquartered B2B used-car and insurtech pla
   partners. It is backed by 500 Global. As of this enrichment pass Lemonaide publishes no public developer
   portal, API documentation, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/lemonaide/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
